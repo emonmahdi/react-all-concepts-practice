@@ -52,6 +52,18 @@ const ConditionalRendering = () => {
       </p>
 
       <div>
+        <h4>Types of Conditional rendering</h4>
+        <ul>
+          <li>1. Using If/Else Statements</li>
+          <li>2. Using Ternary Operator</li>
+          <li>3. Using Logical AND (&&) Operator</li>
+          <li>4. Using Switch Case Statements</li>
+          <li>5. Conditional Rendering in Lists (Using .map())</li>
+          <li>6. Conditional Rendering with Component State</li>
+        </ul>
+      </div>
+
+      <div>
         <h2>Example: </h2>
         <div style={{ position: "relative", marginBottom: "1em" }}>
           <SyntaxHighlighter language="jsx" style={dracula}>

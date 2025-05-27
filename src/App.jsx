@@ -7,6 +7,7 @@ import Jsx from "./Topics/Jsx/Jsx"
 import AllReactConcepts from "./Topics/Module/AllReactConcepts"
 import ExportImport from "./Topics/Module/ReactBasics/ExportImport"
 import Introduction from "./Topics/Module/ReactBasics/Introduction"
+import VirtualDom from "./Topics/Module/ReactBasics/VirtualDom";
 import Props from "./Topics/Props/Props"
 import PureComponents from "./Topics/PureComponents/PureComponents"
 // import ParentComponent from "./Topics/ReactMemo/ParentComponent"
@@ -18,8 +19,8 @@ function App() {
 
   return (
     <>
-      <h2>React js Practice</h2> 
-      <br /> 
+      <h2>React js Practice</h2>
+      <br />
       <AllReactConcepts />
       <br />
       <Introduction />
@@ -29,14 +30,15 @@ function App() {
       <br />
       {/* <ThemeConsumer /> */}
       {/* <RenderingEvent /> */}
-      <Components /> 
-      <Props />
+      <Components />
       <ConditionalRendering />
+      <VirtualDom />
+      <Props />
       <RenderingLists />
       <PureComponents />
       <RenderAndCommit />
     </>
-  )
+  );
 }
 
 export default App

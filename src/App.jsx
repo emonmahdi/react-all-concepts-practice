@@ -1,22 +1,21 @@
  
-import Components from "./Topics/components/Components"
-import ConditionalRendering from "./Topics/ConditionalRendering/ConditionalRendering"
+import ReactFundamentals from "./modules_plan/module_1/ReactFunamentals";
+import Components from "./Topics/components/Components";
+import ConditionalRendering from "./Topics/ConditionalRendering/ConditionalRendering";
 // import ThemeConsumer from "./Topics/ContextApi/ThemeConsumer"
 // import RenderingEvent from "./Topics/Example/RenderingEvent"
-import Jsx from "./Topics/Jsx/Jsx"
-import AllReactConcepts from "./Topics/Module/AllReactConcepts"
-import ExportImport from "./Topics/Module/ReactBasics/ExportImport"
-import Introduction from "./Topics/Module/ReactBasics/Introduction"
+import Jsx from "./Topics/Jsx/Jsx";
+import AllReactConcepts from "./Topics/Module/AllReactConcepts";
+import ExportImport from "./Topics/Module/ReactBasics/ExportImport";
+import Introduction from "./Topics/Module/ReactBasics/Introduction";
 import VirtualDom from "./Topics/Module/ReactBasics/VirtualDom";
-import Props from "./Topics/Props/Props"
-import PureComponents from "./Topics/PureComponents/PureComponents"
+import Props from "./Topics/Props/Props";
+import PureComponents from "./Topics/PureComponents/PureComponents";
 // import ParentComponent from "./Topics/ReactMemo/ParentComponent"
-import RenderAndCommit from "./Topics/RenderAndCommit/RenderAndCommit"
-import RenderingLists from "./Topics/RenderingLists/RenderingLists" 
- 
+import RenderAndCommit from "./Topics/RenderAndCommit/RenderAndCommit";
+import RenderingLists from "./Topics/RenderingLists/RenderingLists";
 
-function App() { 
-
+function App() {
   return (
     <>
       <h2>React js Practice</h2>
@@ -37,6 +36,8 @@ function App() {
       <RenderingLists />
       <PureComponents />
       <RenderAndCommit />
+      {/* Module wise plan */}
+      <ReactFundamentals />
     </>
   );
 }

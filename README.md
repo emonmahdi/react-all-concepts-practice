@@ -1,8 +1,33 @@
-# React + Vite
+# 📌 Module 1: React Fundamentals
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 👉 Goal  
+React-এর বেসিক ধারণা তৈরি করা  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Topics Covered  
+
+1. **What is React? Why use it?**  
+   - React 19 updates সহ  
+
+2. **Environment Setup**  
+   - Vite + React 19 + TypeScript  
+
+3. **First React App**  
+
+4. **JSX Basics**  
+
+5. **Components (Functional)**  
+
+6. **Props**  
+   - With TypeScript typing  
+
+7. **Children Prop**  
+
+---
+
+## 📝 Practice Task  
+- প্রতিটি টপিকের জন্য ছোট ছোট প্রজেক্ট/কোড উদাহরণ তৈরি করুন।  
+- উদাহরণ: একটি **Counter App** বানানো যেখানে Props এবং Children ব্যবহার হবে।  
+
+---

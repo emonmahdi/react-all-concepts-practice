@@ -1,4 +1,6 @@
- 
+import ChildrenProp from "./ChildrenProp";
+import Greeting from "./Greetings";
+import JSXExample from "./JSX";
 
 const ReactFundamentals = () => {
   return (
@@ -10,12 +12,14 @@ const ReactFundamentals = () => {
 
       {/* Description */}
       <p className="text-gray-700 mb-4">
-        React হলো <span className="font-semibold">JavaScript লাইব্রেরি</span>, 
-        ইউজার ইন্টারফেস বানানোর জন্য। 
+        React হলো <span className="font-semibold">JavaScript লাইব্রেরি</span>,
+        ইউজার ইন্টারফেস বানানোর জন্য।
       </p>
 
       {/* Features */}
-      <h2 className="text-xl font-semibold text-gray-800 mb-2">📌 মূল বৈশিষ্ট্য:</h2>
+      <h2 className="text-xl font-semibold text-gray-800 mb-2">
+        📌 মূল বৈশিষ্ট্য:
+      </h2>
       <ul className="list-disc list-inside space-y-1 text-gray-700 mb-4">
         <li>⚛ Component-based (ছোট ছোট অংশে কোড ভাগ করা যায়)</li>
         <li>⚡ Virtual DOM (ফাস্ট রেন্ডারিং)</li>
@@ -23,7 +27,9 @@ const ReactFundamentals = () => {
       </ul>
 
       {/* React 19 Updates */}
-      <h2 className="text-xl font-semibold text-gray-800 mb-2">🚀 React 19 নতুন আপডেট:</h2>
+      <h2 className="text-xl font-semibold text-gray-800 mb-2">
+        🚀 React 19 নতুন আপডেট:
+      </h2>
       <ul className="list-disc list-inside space-y-1 text-gray-700 mb-4">
         <li>📝 Actions API (form ও async কাজ সহজ করার জন্য)</li>
         <li>🔄 useOptimistic Hook (optimistic UI update)</li>
@@ -33,15 +39,20 @@ const ReactFundamentals = () => {
 
       {/* Interview Q&A */}
       <div className="p-4 bg-gray-50 rounded-xl border border-gray-200">
-        <h2 className="text-lg font-semibold text-gray-800 mb-2">🎯 ইন্টারভিউ প্রশ্ন:</h2>
+        <h2 className="text-lg font-semibold text-gray-800 mb-2">
+          🎯 ইন্টারভিউ প্রশ্ন:
+        </h2>
         <p className="text-gray-700">
           <span className="font-semibold">Q:</span> React কেন ব্যবহার করবো?
         </p>
         <p className="text-gray-700">
-          <span className="font-semibold">A:</span> কোড রিইউজ করা যায়, UI দ্রুত রেন্ডার হয়, 
-          বড় অ্যাপ্লিকেশন মেইনটেইন করা সহজ।
+          <span className="font-semibold">A:</span> কোড রিইউজ করা যায়, UI দ্রুত
+          রেন্ডার হয়, বড় অ্যাপ্লিকেশন মেইনটেইন করা সহজ।
         </p>
       </div>
+      <JSXExample />
+      <Greeting name={"Emon"} age={28} />
+      <ChildrenProp />
     </div>
   );
 };

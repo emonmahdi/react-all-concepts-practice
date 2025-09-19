@@ -1,4 +1,7 @@
+import ConditionalRendering from "./ConditionalRendering";
 import EventExample from "./HandlingEvents";
+import ListExample from "./Lists&Keys";
+import InterviewQAModule2 from "./ModuleInterview";
 import UseStateHook from "./useStateHook";
 
 const Module2 = () => {
@@ -13,6 +16,9 @@ const Module2 = () => {
       </ul>
       <UseStateHook />
       <EventExample />
+      <ConditionalRendering />
+      <ListExample />
+      <InterviewQAModule2 />
     </div>
   );
 };

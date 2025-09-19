@@ -31,3 +31,24 @@ React-এর বেসিক ধারণা তৈরি করা
 - উদাহরণ: একটি **Counter App** বানানো যেখানে Props এবং Children ব্যবহার হবে।  
 
 ---
+
+# 📌 Module 2: State & Events
+
+## 🎯 Goal
+React State ম্যানেজমেন্ট শেখা
+
+---
+
+## 🔹 Topics Covered
+- useState Hook
+- Handling Events (onClick, onChange, etc.)
+- Conditional Rendering
+- Lists & Keys
+- Forms (controlled vs uncontrolled)
+
+---
+
+## 📝 Practice Tasks
+- Counter app (increment, decrement, reset)
+- Todo list (add, delete)
+

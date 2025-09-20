@@ -52,3 +52,30 @@ React State ম্যানেজমেন্ট শেখা
 - Counter app (increment, decrement, reset)
 - Todo list (add, delete)
 
+
+
+# 📌 Module 3: Refs & DOM Handling
+
+   - useRef হলো React এর একটি Hook যেটা এমন একটি mutable object রিটার্ন করে যার .current প্রোপার্টি থাকে।
+   - এই ভ্যালুটি re-render এর সময় reset হয় না।
+
+   ```bash 
+   const myRef = useRef(initialValue);
+   ```
+
+
+## Goal: DOM element access করা
+
+---
+
+## 🔹 Topics Covered
+- useRef Hook
+- Focusing Input
+- Storing mutable values 
+
+---
+
+## 📝 Practice Tasks
+- Focus input button
+- Stopwatch timer
+

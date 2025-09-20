@@ -1,6 +1,7 @@
  
 import ReactFundamentals from "./modules_plan/module_1/ReactFunamentals";
 import Module2 from "./modules_plan/module_2/Module2";
+import Module3 from "./modules_plan/module_3/Module3";
 import Components from "./Topics/components/Components";
 import ConditionalRendering from "./Topics/ConditionalRendering/ConditionalRendering";
 // import ThemeConsumer from "./Topics/ContextApi/ThemeConsumer"
@@ -40,6 +41,7 @@ function App() {
       {/* Module wise plan */}
       <ReactFundamentals />
       <Module2 />
+      <Module3 />
     </>
   );
 }

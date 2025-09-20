@@ -7,6 +7,7 @@ import Module5 from "./modules_plan/module_5/Module5";
 import Module6 from "./modules_plan/module_6/Module6";
 import Module7 from "./modules_plan/module_7/Module7";
 import Module8 from "./modules_plan/module_8/Module8";
+import Module9 from "./modules_plan/module_9/Module9";
 import Components from "./Topics/components/Components";
 import ConditionalRendering from "./Topics/ConditionalRendering/ConditionalRendering";
 // import ThemeConsumer from "./Topics/ContextApi/ThemeConsumer"
@@ -52,6 +53,7 @@ function App() {
       <Module6 />
       <Module7 />
       <Module8 />
+      <Module9 />
     </>
   );
 }

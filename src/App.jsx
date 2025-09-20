@@ -2,6 +2,11 @@
 import ReactFundamentals from "./modules_plan/module_1/ReactFunamentals";
 import Module2 from "./modules_plan/module_2/Module2";
 import Module3 from "./modules_plan/module_3/Module3";
+import Module4 from "./modules_plan/module_3/module_4/Module4";
+import Module5 from "./modules_plan/module_5/Module5";
+import Module6 from "./modules_plan/module_6/Module6";
+import Module7 from "./modules_plan/module_7/Module7";
+import Module8 from "./modules_plan/module_8/Module8";
 import Components from "./Topics/components/Components";
 import ConditionalRendering from "./Topics/ConditionalRendering/ConditionalRendering";
 // import ThemeConsumer from "./Topics/ContextApi/ThemeConsumer"
@@ -42,6 +47,11 @@ function App() {
       <ReactFundamentals />
       <Module2 />
       <Module3 />
+      <Module4 />
+      <Module5 />
+      <Module6 />
+      <Module7 />
+      <Module8 />
     </>
   );
 }

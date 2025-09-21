@@ -1,5 +1,7 @@
  
 import ReactFundamentals from "./modules_plan/module_1/ReactFunamentals";
+import Module10 from "./modules_plan/module_10/Module10";
+import Module11 from "./modules_plan/module_11/Module11";
 import Module2 from "./modules_plan/module_2/Module2";
 import Module3 from "./modules_plan/module_3/Module3";
 import Module4 from "./modules_plan/module_3/module_4/Module4";
@@ -54,6 +56,8 @@ function App() {
       <Module7 />
       <Module8 />
       <Module9 />
+      <Module10 />
+      <Module11 />
     </>
   );
 }

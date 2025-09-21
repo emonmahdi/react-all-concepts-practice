@@ -2,6 +2,12 @@
 import ReactFundamentals from "./modules_plan/module_1/ReactFunamentals";
 import Module10 from "./modules_plan/module_10/Module10";
 import Module11 from "./modules_plan/module_11/Module11";
+import Module12 from "./modules_plan/module_12/Module12";
+import Module12_1 from "./modules_plan/module_12/Module12_1";
+import Module13 from "./modules_plan/module_13/Module13";
+import Module14 from "./modules_plan/module_14/Module14";
+import Module15 from "./modules_plan/module_15/Module15";
+import Module16 from "./modules_plan/module_16/Module16";
 import Module2 from "./modules_plan/module_2/Module2";
 import Module3 from "./modules_plan/module_3/Module3";
 import Module4 from "./modules_plan/module_3/module_4/Module4";
@@ -58,6 +64,12 @@ function App() {
       <Module9 />
       <Module10 />
       <Module11 />
+      <Module12_1 />
+      <Module12 />
+      <Module13 />
+      <Module14 />
+      <Module15 />
+      <Module16 />
     </>
   );
 }

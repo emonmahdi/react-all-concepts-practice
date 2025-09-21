@@ -8,6 +8,7 @@ import Module13 from "./modules_plan/module_13/Module13";
 import Module14 from "./modules_plan/module_14/Module14";
 import Module15 from "./modules_plan/module_15/Module15";
 import Module16 from "./modules_plan/module_16/Module16";
+import Module17 from "./modules_plan/module_17/Module17";
 import Module2 from "./modules_plan/module_2/Module2";
 import Module3 from "./modules_plan/module_3/Module3";
 import Module4 from "./modules_plan/module_3/module_4/Module4";
@@ -70,6 +71,7 @@ function App() {
       <Module14 />
       <Module15 />
       <Module16 />
+      <Module17 />
     </>
   );
 }
